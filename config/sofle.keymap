@@ -67,7 +67,7 @@
 &kp GRAVE  &kp N1  &kp N2   &kp N3    &kp N4     &kp N5                              &kp N6    &kp N7     &kp N8     &kp N9    &kp N0    &none
 &kp TAB    &kp Q   &kp W    &kp E     &kp R      &kp T                               &kp Y     &kp U      &kp I      &kp O     &kp P     &kp SQT
 &kp LSHFT  &kp A   &kp S    &kp D     &kp F      &kp G                               &kp H     &kp J      &kp K      &kp L     &kp SEMI  &kp RSHFT
-&kp LCTRL  &kp Z   &kp X    &kp C     &kp V      &kp B      &tog 4          &none    &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RCTRL
+&kp LCTRL  &kp Z   &kp X    &kp C     &kp V      &kp B      &none           &kp DEL  &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RCTRL
                    &kp ESC  &kp LALT  &layer_td  &kp SPACE  &mt LGUI ESC    &kp RET  &kp BSPC  &layer_td  &kp RALT   &kp RGUI
             >;
 
@@ -86,10 +86,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESC    &kp F1     &kp F2          &kp F3    &kp F4    &kp F5                             &kp F6     &kp F7  &kp F8  &kp F9  &kp F10    &kp F11
-&kp GRAVE  &kp CARET  &kp PLUS        &kp LBKT  &kp RBKT  &kp EXCLAMATION                    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp ASTRK  &kp F12
-&trans     &kp AT     &kp MINUS       &kp LPAR  &kp RPAR  &kp PRCNT                          &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp N0     &kp PIPE
-&trans     &kp DLLR   &kp UNDERSCORE  &kp LBRC  &kp RBRC  &kp AMPS         &trans    &trans  &kp HASH   &kp N1  &kp N2  &kp N3  &kp BSLH   &trans
+&kp ESC    &kp F1     &kp F2          &kp F3    &kp F4    &kp F5                             &kp F6     &kp F7  &kp F8  &kp F9  &kp F10   &kp F11
+&kp GRAVE  &kp CARET  &kp PLUS        &kp LBKT  &kp RBKT  &kp EXCLAMATION                    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp PIPE  &kp F12
+&trans     &kp AT     &kp MINUS       &kp LPAR  &kp RPAR  &kp PRCNT                          &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp N0    &trans
+&trans     &kp DLLR   &kp UNDERSCORE  &kp LBRC  &kp RBRC  &kp AMPS         &trans    &trans  &kp HASH   &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
                       &trans          &trans    &trans    &trans           &trans    &trans  &trans     &trans  &trans  &trans
             >;
 
